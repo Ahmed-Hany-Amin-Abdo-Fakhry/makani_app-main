@@ -5,12 +5,15 @@
     "emailLabel": "البريد الإلكتروني",
     "passwordLabel": "كلمة المرور",
     "signingIn": "جارٍ تسجيل الدخول...",
-    "accessDenied": "تم رفض الوصول — هذا الحساب ليس مدير نظام"
+    "accessDenied": "تم رفض الوصول — هذا الحساب ليس مدير نظام",
+    "showPassword": "إظهار كلمة المرور",
+    "hidePassword": "إخفاء كلمة المرور"
   },
   "nav": {
     "overview": "نظرة عامة",
     "listings": "القوائم",
     "reports": "التقارير",
+    "teams": "الفريق",
     "signOut": "تسجيل الخروج"
   },
   "overview": {
@@ -18,7 +21,8 @@
     "totalUsers": "إجمالي المستخدمين",
     "activeListings": "القوائم النشطة",
     "pendingReports": "التقارير المعلقة",
-    "totalBookings": "إجمالي الحجوزات"
+    "totalBookings": "إجمالي الحجوزات",
+    "listingsBreakdown": "توزيع القوائم"
   },
   "listings": {
     "title": "القوائم",
@@ -46,6 +50,26 @@
     "pending": "معلق",
     "reviewed": "تمت المراجعة",
     "markReviewed": "تحديد كمراجَع"
+  },
+  "team": {
+    "title": "الفريق",
+    "subtitle": "إدارة صلاحيات المسؤولين في لوحة تحكم مكاني",
+    "addAdminTitle": "إضافة مسؤول جديد",
+    "emailPlaceholder": "أدخل البريد الإلكتروني للمستخدم",
+    "addAdmin": "إضافة مسؤول",
+    "adding": "جارٍ الإضافة...",
+    "removeAdmin": "إزالة",
+    "adminAdded": "تمت إضافة المسؤول بنجاح",
+    "adminRemoved": "تمت إزالة {name} من المسؤولين",
+    "nameColumn": "الاسم",
+    "emailColumn": "البريد الإلكتروني",
+    "providerColumn": "مزوّد الخدمة",
+    "roleColumn": "الدور",
+    "roleAdmin": "مسؤول",
+    "you": "أنت",
+    "errorNotFound": "لا يوجد مستخدم بهذا البريد الإلكتروني",
+    "errorAlreadyAdmin": "هذا المستخدم مسؤول بالفعل",
+    "errorGeneric": "حدث خطأ، يرجى المحاولة مرة أخرى"
   },
   "common": {
     "loading": "جارٍ التحميل...",

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
@@ -17,6 +18,7 @@ export function TopNav() {
     { href: `/${locale}/overview`, label: t('overview') },
     { href: `/${locale}/listings`, label: t('listings') },
     { href: `/${locale}/reports`, label: t('reports') },
+    { href: `/${locale}/teams`, label: t('teams') },
   ];
 
   function switchLocale() {
@@ -31,7 +33,10 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur">
       <div className="flex h-14 items-center gap-4 px-4">
-        <span className="font-semibold text-primary me-4">Makani Admin</span>
+        <Link href={`/${locale}/overview`} className="flex items-center gap-2 me-4 shrink-0">
+          <Image src="/logo.png" alt="Makani" width={28} height={28} className="rounded-lg" />
+          <span className="font-semibold text-primary hidden sm:block">Makani Admin</span>
+        </Link>
 
         <nav className="flex items-center gap-1 flex-1">
           {navItems.map((item) => (

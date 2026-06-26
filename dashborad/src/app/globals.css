@@ -9,7 +9,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -18,11 +17,6 @@
   --color-sidebar-primary: var(--sidebar-primary);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -43,80 +37,77 @@
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  /* ── Makani brand (Flutter AppColors) ─────────────────── */
+  --primary:          #5B6CF2;   /* AppColors.primary       */
+  --primary-dark:     #4A5AD9;   /* AppColors.primaryDark   */
+  --primary-foreground: #FFFFFF;
+
+  /* ── Surfaces & backgrounds ───────────────────────────── */
+  --background:       #FCFDFF;   /* AppColors.backgroundColor */
+  --foreground:       #1A1A1A;   /* AppColors.textPrimary    */
+  --card:             #FFFFFF;
+  --card-foreground:  #1A1A1A;
+  --popover:          #FFFFFF;
+  --popover-foreground: #1A1A1A;
+
+  /* ── Secondary / muted ────────────────────────────────── */
+  --secondary:        #F5F5F7;   /* AppColors.surface       */
+  --secondary-foreground: #1A1A1A;
+  --muted:            #F5F5F7;
+  --muted-foreground: #6B7280;   /* AppColors.textSecondary */
+  --accent:           #EEF0FD;   /* light tint of primary   */
+  --accent-foreground: #3745AF;
+
+  /* ── Semantic ─────────────────────────────────────────── */
+  --destructive:      #EF4444;   /* AppColors.error         */
+  --success:          #22C55E;   /* AppColors.success       */
+  --border:           #E5E7EB;   /* AppColors.divider       */
+  --input:            #E5E7EB;
+  --ring:             #5B6CF280; /* primary at 50% alpha    */
+
+  /* ── Sidebar ──────────────────────────────────────────── */
+  --sidebar:          #FFFFFF;
+  --sidebar-foreground: #1A1A1A;
+  --sidebar-primary:  #5B6CF2;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent:   #EEF0FD;
+  --sidebar-accent-foreground: #3745AF;
+  --sidebar-border:   #E5E7EB;
+  --sidebar-ring:     #5B6CF2;
+
   --radius: 0.625rem;
-  --brand: oklch(0.55 0.2 250);
-  --brand-foreground: oklch(0.985 0 0);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --primary:          #7B8CF5;
+  --primary-foreground: #0F1033;
+  --background:       #0F1117;
+  --foreground:       #F5F5F7;
+  --card:             #1A1D2E;
+  --card-foreground:  #F5F5F7;
+  --popover:          #1A1D2E;
+  --popover-foreground: #F5F5F7;
+  --secondary:        #1E2235;
+  --secondary-foreground: #F5F5F7;
+  --muted:            #1E2235;
+  --muted-foreground: #9EA2AE;
+  --accent:           #252A45;
+  --accent-foreground: #9BA5F7;
+  --destructive:      #F87171;
+  --border:           rgba(255,255,255,0.1);
+  --input:            rgba(255,255,255,0.12);
+  --ring:             #7B8CF580;
+  --sidebar:          #1A1D2E;
+  --sidebar-foreground: #F5F5F7;
+  --sidebar-primary:  #7B8CF5;
+  --sidebar-primary-foreground: #0F1033;
+  --sidebar-accent:   #252A45;
+  --sidebar-accent-foreground: #9BA5F7;
+  --sidebar-border:   rgba(255,255,255,0.08);
+  --sidebar-ring:     #7B8CF5;
 }
 
 @layer base {

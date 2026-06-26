@@ -5,12 +5,15 @@
     "emailLabel": "Email",
     "passwordLabel": "Password",
     "signingIn": "Signing in...",
-    "accessDenied": "Access denied — not an admin account"
+    "accessDenied": "Access denied — not an admin account",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "nav": {
     "overview": "Overview",
     "listings": "Listings",
     "reports": "Reports",
+    "teams": "Teams",
     "signOut": "Sign Out"
   },
   "overview": {
@@ -18,7 +21,8 @@
     "totalUsers": "Total Users",
     "activeListings": "Active Listings",
     "pendingReports": "Pending Reports",
-    "totalBookings": "Total Bookings"
+    "totalBookings": "Total Bookings",
+    "listingsBreakdown": "Listings Breakdown"
   },
   "listings": {
     "title": "Listings",
@@ -46,6 +50,26 @@
     "pending": "Pending",
     "reviewed": "Reviewed",
     "markReviewed": "Mark Reviewed"
+  },
+  "team": {
+    "title": "Teams",
+    "subtitle": "Manage admin access for the Makani dashboard",
+    "addAdminTitle": "Add a new admin",
+    "emailPlaceholder": "Enter user email address",
+    "addAdmin": "Add Admin",
+    "adding": "Adding...",
+    "removeAdmin": "Remove",
+    "adminAdded": "Admin added successfully",
+    "adminRemoved": "{name} removed from admins",
+    "nameColumn": "Name",
+    "emailColumn": "Email",
+    "providerColumn": "Provider",
+    "roleColumn": "Role",
+    "roleAdmin": "Admin",
+    "you": "You",
+    "errorNotFound": "No user found with that email address",
+    "errorAlreadyAdmin": "This user is already an admin",
+    "errorGeneric": "Something went wrong, please try again"
   },
   "common": {
     "loading": "Loading...",

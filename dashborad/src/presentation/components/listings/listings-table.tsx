@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Badge } from '@/components/ui/badge';
 import {
   Table,
@@ -18,7 +18,16 @@ import type { Listing } from '@/domain/entities/listing';
 export function ListingsTable() {
   const t = useTranslations('listings');
   const tCommon = useTranslations('common');
+  const locale = useLocale();
   const { data, isLoading, fetchNextPage, hasNextPage, isFetchingNextPage } = useListings();
+
+  function formatPrice(amount: number) {
+    return new Intl.NumberFormat(locale === 'ar' ? 'ar-EG' : 'en-EG', {
+      style: 'currency',
+      currency: 'EGP',
+      maximumFractionDigits: 0,
+    }).format(amount);
+  }
 
   const listings: Listing[] = data?.pages.flatMap((p) => (p as { listings: Listing[] }).listings) ?? [];
 
@@ -61,12 +70,16 @@ export function ListingsTable() {
                 <TableCell className="font-mono text-xs">{listing.ownerId.slice(0, 8)}…</TableCell>
                 <TableCell>{listing.propertyTypeKey}</TableCell>
                 <TableCell>
-                  {listing.monthlyRent != null ? `${listing.monthlyRent} SAR` : '—'}
+                  {listing.monthlyRent != null ? formatPrice(listing.monthlyRent) : '—'}
                 </TableCell>
                 <TableCell>
-                  <Badge variant={listing.status === 'active' ? 'default' : 'secondary'}>
+                  <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                    listing.status === 'active'
+                      ? 'bg-green-100 text-green-800'
+                      : 'bg-gray-100 text-gray-600'
+                  }`}>
                     {listing.status === 'active' ? t('active') : t('inactive')}
-                  </Badge>
+                  </span>
                 </TableCell>
                 <TableCell>
                   <StatusToggle listingId={listing.id} currentStatus={listing.status} />

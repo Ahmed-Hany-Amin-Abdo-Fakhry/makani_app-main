@@ -62,9 +62,13 @@ export function ReportsTable() {
                 </TableCell>
                 <TableCell className="max-w-xs truncate">{report.reason}</TableCell>
                 <TableCell>
-                  <Badge variant={report.status === 'pending' ? 'destructive' : 'secondary'}>
+                  <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                    report.status === 'pending'
+                      ? 'bg-amber-100 text-amber-800'
+                      : 'bg-green-100 text-green-800'
+                  }`}>
                     {report.status === 'pending' ? t('pending') : t('reviewed')}
-                  </Badge>
+                  </span>
                 </TableCell>
                 <TableCell>
                   {report.status === 'pending' && (
