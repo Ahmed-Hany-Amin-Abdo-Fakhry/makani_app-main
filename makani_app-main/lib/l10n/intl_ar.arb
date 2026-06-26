@@ -1,0 +1,357 @@
+{
+  "appName": "مكاني",
+  "signIn": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "welcomeToMakani": "مرحباً بك في مكاني",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمة المرور",
+  "orLoginWith": "أو سجّل الدخول باستخدام",
+  "loginWithGoogle": "تسجيل الدخول بـ Google",
+  "newToMakaniSignUp": "جديد على مكاني؟",
+  "alreadyHaveAccountLogin": "لديك حساب؟",
+  "name": "الاسم",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "enterOtp": "أدخل الرمز",
+  "resendCode": "إعادة إرسال الرمز",
+  "verify": "تحقق",
+  "otpSentToEmail": "الرجاء إدخال الرمز المرسل إلى بريدك الإلكتروني:",
+  "havenGotOtpYet": "لم يصلك الرمز بعد؟",
+  "resendOtp": "إعادة إرسال الرمز",
+  "verifyCode": "تحقق من الرمز",
+  "newPassword": "كلمة المرور الجديدة",
+  "setNewPassword": "تعيين كلمة المرور الجديدة",
+  "passwordReset": "تم إعادة تعيين كلمة المرور",
+  "goToLogin": "الذهاب لتسجيل الدخول",
+  "successful": "تم بنجاح",
+  "passwordUpdatedSuccessMessage": "تهانينا! تم تحديث كلمة المرور بنجاح. اضغط متابعة لتسجيل الدخول",
+  "passwordResetEmailSentMessage": "تم إرسال رسالة إعادة تعيين كلمة المرور إلى بريدك الإلكتروني. استخدمها لتحديث كلمة المرور، ثم حاول تسجيل الدخول بكلمة المرور الجديدة.\n\nإذا لم تجد الرسالة، يرجى التحقق من مجلد الرسائل غير المرغوب فيها (Spam/Junk).",
+  "hiUser": "أهلاً، {name}",
+  "helloUser": "مرحباً، {name}",
+  "@helloUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchLocationPlaceholder": "ابحث عن موقع، منطقة...",
+  "defaultAddress": "23 شارع الجمهورية، حي العرب، بورسعيد 42511، مصر",
+  "aiRecommendation": "اقتراحات الذكاء الاصطناعي",
+  "seeAll": "عرض الكل",
+  "popularListing": "الإعلانات الشائعة",
+  "maleOnly": "ذكور فقط",
+  "femaleOnly": "إناث فقط",
+  "bedsCount": "{count} أسرّة",
+  "@bedsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bedsAvailable": "{count} سرير متاح",
+  "@bedsAvailable": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bathsCount": "{count} حمامات",
+  "@bathsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "searchForFlat": "ابحث عن شقة",
+  "filter": "تصفية",
+  "profession": "المهنة",
+  "searchProfession": "ابحث عن مهنة....",
+  "reset": "إعادة تعيين",
+  "applyFilters": "تطبيق الفلاتر",
+  "minPrice": "الحد الأدنى للسعر",
+  "maxPrice": "الحد الأقصى للسعر",
+  "rooms": "الغرف",
+  "distance": "المسافة",
+  "any": "أي",
+  "getDirections": "الحصول على الاتجاهات",
+  "reportListing": "الإبلاغ عن الإعلان",
+  "whyReportingListing": "لماذا تقوم بالإبلاغ عن هذا الإعلان؟",
+  "incorrectPrice": "سعر غير صحيح",
+  "alreadyRented": "تم تأجيره بالفعل",
+  "fakeListing": "إعلان وهمي",
+  "inappropriateContent": "محتوى غير لائق",
+  "other": "أخرى",
+  "send": "إرسال",
+  "availableNow": "متاح الآن",
+  "contactOwner": "تواصل مع المالك",
+  "reserve": "احجز",
+  "readMore": "اقرأ المزيد",
+  "readLess": "عرض أقل",
+  "overview": "نظرة عامة",
+  "video": "فيديو",
+  "ratings": "التقييمات",
+  "reviews": "المراجعات",
+  "writeReview": "اكتب مراجعة",
+  "editYourReview": "عدّل مراجعتك",
+  "tapToRate": "اضغط على النجوم لتقييم هذا العقار",
+  "shareYourExperience": "شارك تجربتك (اختياري)",
+  "submitReview": "إرسال المراجعة",
+  "noReviewsYet": "لا توجد مراجعات بعد.",
+  "loginToRateProperty": "سجّل الدخول لإضافة تقييم ومراجعة لهذا العقار.",
+  "ownerCannotReviewProperty": "لا يمكنك تقييم عقارك الخاص.",
+  "reviewSubmittedSuccess": "شكرًا! تم إرسال مراجعتك.",
+  "reviewUpdatedSuccess": "تم تحديث مراجعتك.",
+  "reviewSubmitError": "تعذر إرسال المراجعة. حاول مرة أخرى.",
+  "yourReviewLabel": "مراجعتك",
+  "reviewerLabel": "مراجع",
+  "ratingJustNow": "الآن",
+  "ratingSummary": "{ratingsCount} تقييم، {reviewsCount} مراجعة",
+  "@ratingSummary": {
+    "placeholders": {
+      "ratingsCount": {
+        "type": "int"
+      },
+      "reviewsCount": {
+        "type": "int"
+      }
+    }
+  },
+  "home": "الرئيسية",
+  "favorites": "المفضلة",
+  "saved": "المحفوظ",
+  "myAds": "إعلاناتي",
+  "profile": "الملف الشخصي",
+  "location": "الموقع",
+  "priceRange": "نطاق السعر",
+  "propertyType": "نوع العقار",
+  "bedrooms": "غرف النوم",
+  "bathrooms": "الحمامات",
+  "amenities": "المرافق",
+  "search": "بحث",
+  "description": "الوصف",
+  "viewOnMap": "عرض على الخريطة",
+  "bookNow": "احجز الآن",
+  "booking": "الحجز",
+  "checkIn": "تاريخ الوصول",
+  "checkOut": "تاريخ المغادرة",
+  "guests": "الضيوف",
+  "total": "الإجمالي",
+  "confirmBooking": "تأكيد الحجز",
+  "addNewAd": "إضافة إعلان جديد",
+  "title": "العنوان",
+  "rentalType": "نوع الإيجار",
+  "furnished": "مُؤثّث",
+  "unfurnished": "غير مُؤثّث",
+  "next": "التالي",
+  "continueLabel": "متابعة",
+  "propertyPhotos": "صور العقار",
+  "addVideo": "إضافة فيديو",
+  "pricePerMonth": "السعر شهرياً",
+  "utilitiesIncluded": "المرافق مشمولة",
+  "publish": "نشر",
+  "publishAd": "نشر الإعلان",
+  "recentChats": "المحادثات الأخيرة",
+  "myFavorites": "المفضلة",
+  "myBookings": "حجوزاتي",
+  "wallet": "المحفظة",
+  "inviteFriends": "دعوة أصدقاء",
+  "language": "اللغة",
+  "help": "المساعدة",
+  "logout": "تسجيل الخروج",
+  "personalInformation": "المعلومات الشخصية",
+  "phoneNumber": "رقم الهاتف",
+  "address": "العنوان",
+  "saveChanges": "حفظ التغييرات",
+  "wifi": "واي فاي",
+  "ac": "تكييف",
+  "balcony": "شرفة",
+  "parking": "موقف سيارات",
+  "garden": "حديقة",
+  "pool": "مسبح",
+  "gym": "جيم",
+  "laundry": "غسيل",
+  "flat": "شقة",
+  "villa": "فيلا",
+  "room": "غرفة",
+  "sell": "بيع",
+  "skipForNow": "تخطي الان -->",
+  "findYourPerfectHome": "اعثر على منزلك المثالي",
+  "perMonth": "{price} ج.م / شهر",
+  "edit": "تعديل",
+  "fullName": "الاسم الكامل",
+  "emailAddress": "البريد الإلكتروني",
+  "accountInformation": "معلومات الحساب",
+  "security": "الأمان",
+  "accountSettings": "إعدادات الحساب",
+  "languageSettings": "إعدادات اللغة",
+  "propertyManagement": "إدارة العقارات",
+  "myActiveAds": "إعلاناتي النشطة",
+  "propertiesCurrentlyLive": "{count} عقارات نشطة حالياً",
+  "@propertiesCurrentlyLive": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "savedProperties": "العقارات المحفوظة",
+  "helpSupport": "المساعدة والدعم",
+  "available": "متاح",
+  "unavailable": "غير متاح",
+  "shared": "مشترك",
+  "private": "خاص",
+  "camera": "الكاميرا",
+  "gallery": "المعرض",
+  "addAdMediaSourceTitle": "اختر المصدر",
+  "back": "رجوع",
+  "addAdStepPropertyType": "نوع العقار",
+  "addAdStepLocation": "الموقع",
+  "addAdStepDetails": "التفاصيل والمرافق",
+  "addAdStepMedia": "رفع الوسائط",
+  "addAdStepReview": "مراجعة ونشر",
+  "addAdWhatRenting": "ماذا تؤجر؟",
+  "addAdWhoCanRent": "من يمكنه استئجار هذا المكان؟",
+  "addAdPreferredFieldOfStudy": "مجال الدراسة المفضل",
+  "addAdRentingSingleBed": "سرير مفرد",
+  "addAdRentingPrivateRoom": "غرفة خاصة",
+  "addAdRentingEntireApartment": "شقة كاملة",
+  "addAdRentingStudio": "استوديو",
+  "addAdMale": "ذكر",
+  "addAdFemale": "أنثى",
+  "addAdLocationDetails": "تفاصيل الموقع",
+  "addAdLocationDetailsSubtitle": "ساعد الطلاب على إيجاد مكانك. اختر المحافظة والمنطقة وثبّت الموقع على الخريطة.",
+  "addAdGovernorate": "المحافظة",
+  "addAdSelectGovernorate": "اختر المحافظة",
+  "addAdDistrict": "المنطقة / الحي",
+  "addAdSelectDistrict": "اختر المنطقة",
+  "addAdExtractLocation": "استخراج الموقع",
+  "addAdUseCurrentLocation": "استخدام موقعي الحالي",
+  "addAdTapMapToAdjustPin": "اضغط على الخريطة لضبط الدبوس",
+  "addAdDetailsAndAmenities": "التفاصيل والمرافق",
+  "addAdDetailsSubtitle": "حدد الإيجار، السعة، المساحة، وما تقدمه.",
+  "addAdMonthlyRent": "الإيجار الشهري",
+  "addAdRentHint": "0.00",
+  "addAdMonthlySuffix": "شهرياً",
+  "addAdTotalBeds": "إجمالي الأسرّة",
+  "addAdBedsAvailable": "الأسرّة المتاحة",
+  "addAdContractTitle": "عقد الشقة",
+  "addAdContractHint": "ارفع صورة عقد الإيجار للتحقق. لن تظهر للمستخدمين.",
+  "addAdContractTapToUpload": "اضغط لرفع صورة العقد",
+  "addAdContractRequiredWarning": "صورة العقد مطلوبة قبل المتابعة.",
+  "addAdContractUploaded": "تم رفع العقد للتحقق",
+  "addAdTestPayment": "دفع تجريبي (MyFatoorah)",
+  "addAdTestPaymentTitle": "الدفع",
+  "addAdTestPaymentLoading": "جاري إنشاء فاتورة تجريبية…",
+  "addAdTestPaymentSandboxHint": "وضع تجريبي — استخدم بطاقات MyFatoorah التجريبية. لا يوجد خصم حقيقي.",
+  "addAdTestPaymentSuccess": "تم إكمال الدفع التجريبي.",
+  "addAdTestPaymentCancelled": "لم يكتمل الدفع التجريبي.",
+  "addAdTestPaymentError": "تعذر بدء الدفع التجريبي. تحقق من الاتصال وحاول مرة أخرى.",
+  "addAdTestPaymentRetry": "إعادة المحاولة",
+  "addAdNationalIdTitle": "البطاقة الشخصية",
+  "addAdNationalIdHint": "ارفع صورتي وجه وظهر البطاقة الشخصية للتحقق. لن تظهر للمستخدمين.",
+  "addAdNationalIdFrontLabel": "الوجه",
+  "addAdNationalIdBackLabel": "الظهر",
+  "addAdNationalIdFrontTapToUpload": "اضغط لرفع الوجه",
+  "addAdNationalIdBackTapToUpload": "اضغط لرفع الظهر",
+  "addAdNationalIdRequiredWarning": "صور وجه وظهر البطاقة الشخصية مطلوبة قبل المتابعة.",
+  "addAdNationalIdUploaded": "تم رفع البطاقة الشخصية للتحقق",
+  "addAdRoomSize": "مساحة الغرفة",
+  "addAdSqmSuffix": "م² (متر مربع)",
+  "addAdMediaUpload": "رفع الوسائط",
+  "addAdMediaSubtitle": "اقتربنا من النهاية! أضف صوراً",
+  "addAdPhotosUploaded": "{count}/{max} مرفوع",
+  "@addAdPhotosUploaded": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdAddPhoto": "إضافة صورة",
+  "addAdMinTwoPhotosWarning": "يلزم صورتان على الأقل. جودة أعلى تجذب المزيد من الطلاب.",
+  "addAdUploadPropertyVideo": "ارفع فيديو للعقار",
+  "addAdVideoFormats": "MP4 أو MOV حتى 50 ميجابايت",
+  "addAdReviewPublish": "مراجعة ونشر",
+  "addAdListingSummary": "ملخص الإعلان",
+  "addAdDetailsAmenitiesSection": "التفاصيل والمرافق",
+  "addAdLocationSection": "تفاصيل الموقع",
+  "addAdMediaOverview": "نظرة على الوسائط",
+  "addAdOpenTo": "متاح لـ: {gender}",
+  "@addAdOpenTo": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPreferredField": "المجال المفضل: {fields}",
+  "@addAdPreferredField": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPerBed": "{price} ج.م / لكل سرير",
+  "@addAdPerBed": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPriceMonthlyShort": "{price} ج.م / شهر",
+  "@addAdPriceMonthlyShort": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdStudyEngineering": "هندسة",
+  "addAdStudyEducation": "تربية",
+  "addAdStudySales": "مبيعات",
+  "addAdStudyLaw": "قانون",
+  "addAdStudyFinance": "مالية",
+  "addAdStudyMedicine": "طب",
+  "addAdStudyMarketing": "تسويق",
+  "addAdStudyPsychology": "علم نفس",
+  "addAdStudyArchitecture": "عمارة",
+  "addAdStudyNursing": "تمريض",
+  "addAdStudyBusiness": "أعمال",
+  "addAdStudyIt": "تقنية معلومات",
+  "addAdStudyOpenToAll": "مفتوح للجميع",
+  "addAmenityKitchen": "مطبخ",
+  "addAmenityStudyDesk": "مكتب دراسة",
+  "addAdContinue": "متابعة",
+  "addAdPublishListing": "نشر",
+  "addAdVideoTooLarge": "يجب ألا يتجاوز الفيديو 50 ميجابايت",
+  "addAdLocationPermissionDenied": "تم رفض إذن الموقع",
+  "addAdLocationServicesOff": "خدمات الموقع غير مفعّلة"
+,
+  "addAdPublishingTitle": "جاري نشر إعلانك…",
+  "addAdUploadProgressPercent": "{percent}٪",
+  "@addAdUploadProgressPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "addAdListingPublishedTitle": "تم نشر الإعلان!",
+  "addAdListingPublishedSubtitle": "عقارك متاح الآن ليطّلع عليه المستخدمين.",
+  "addAdPublishSuccessDone": "العودة للرئيسية",
+  "addAdPublishErrorGeneric": "حدث خطأ أثناء النشر. حاول مرة أخرى.",
+  "addAdPublishErrorUnauthorized": "رفض الرفع. تحقق من إعدادات Cloudinary.",
+  "addAdPublishErrorNetwork": "تعذّر الاتصال بالخادم. تحقق من الإنترنت.",
+  "addAdPublishErrorNotSignedIn": "يجب تسجيل الدخول للنشر.",
+  "addAdPublishErrorNotConfigured": "الرفع غير مهيأ. أضف مفاتيح Cloudinary للبناء."
+}

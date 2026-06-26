@@ -1,0 +1,371 @@
+{
+  "appName": "Makani",
+  "signIn": "Login",
+  "signUp": "Sign Up",
+  "welcomeToMakani": "Welcome to Makani",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot password",
+  "orLoginWith": "Or login with",
+  "loginWithGoogle": "Login with Google",
+  "newToMakaniSignUp": "New to Makani?",
+  "alreadyHaveAccountLogin": "Already have an account?",
+  "name": "Name",
+  "confirmPassword": "Confirm password",
+  "resetPassword": "Reset password",
+  "enterOtp": "Enter OTP",
+  "resendCode": "Resend code",
+  "verify": "Verify",
+  "otpSentToEmail": "Please enter the OTP sent to your email:",
+  "havenGotOtpYet": "Haven't got the otp yet?",
+  "resendOtp": "Resend otp",
+  "verifyCode": "Verify code",
+  "newPassword": "New password",
+  "setNewPassword": "Set new password",
+  "passwordReset": "Password reset",
+  "goToLogin": "Go to login",
+  "successful": "Successful",
+  "passwordUpdatedSuccessMessage": "Congratulations! Your password has been successfully updated. Click Continue to login",
+  "passwordResetEmailSentMessage": "A password reset email has been sent to your email. Use it to update your password, then try logging in with your new password.\n\nIf you do not see the email, check your spam/junk folder.",
+  "hiUser": "Hi, {name}",
+  "@hiUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "helloUser": "Hello, {name}",
+  "@helloUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchLocationPlaceholder": "Search location, area...",
+  "defaultAddress": "23 El-Gomhoria Street, Al-Arab District, Port Said 42511, Egypt",
+  "aiRecommendation": "AI Recommendation",
+  "seeAll": "See All",
+  "popularListing": "Popular Listing",
+  "maleOnly": "Male Only",
+  "femaleOnly": "Female Only",
+  "bedsCount": "{count} Beds",
+  "@bedsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bedsAvailable": "{count} beds available",
+  "@bedsAvailable": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bathsCount": "{count} Baths",
+  "@bathsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "searchForFlat": "Search for a flat",
+  "filter": "Filter",
+  "profession": "Profession",
+  "searchProfession": "Search Profession....",
+  "reset": "Reset",
+  "applyFilters": "Apply Filters",
+  "minPrice": "Min Price",
+  "maxPrice": "Max Price",
+  "rooms": "Rooms",
+  "distance": "Distance",
+  "any": "Any",
+  "getDirections": "Get Directions",
+  "reportListing": "Report Listing",
+  "whyReportingListing": "Why are you reporting this listing?",
+  "incorrectPrice": "Incorrect price",
+  "alreadyRented": "Already rented",
+  "fakeListing": "Fake listing",
+  "inappropriateContent": "Inappropriate content",
+  "other": "Other",
+  "send": "Send",
+  "availableNow": "Available Now",
+  "contactOwner": "Contact Owner",
+  "reserve": "Reserve",
+  "readMore": "Read more",
+  "readLess": "Read less",
+  "overview": "Overview",
+  "video": "Video",
+  "ratings": "Ratings",
+  "reviews": "Reviews",
+  "writeReview": "Write a review",
+  "editYourReview": "Edit your review",
+  "tapToRate": "Tap a star to rate this property",
+  "shareYourExperience": "Share your experience (optional)",
+  "submitReview": "Submit review",
+  "noReviewsYet": "No reviews yet.",
+  "loginToRateProperty": "Log in to rate and review this property.",
+  "ownerCannotReviewProperty": "You cannot review your own property.",
+  "reviewSubmittedSuccess": "Thanks! Your review was submitted.",
+  "reviewUpdatedSuccess": "Your review has been updated.",
+  "reviewSubmitError": "Could not submit review. Please try again.",
+  "yourReviewLabel": "Your review",
+  "reviewerLabel": "Reviewer",
+  "ratingJustNow": "Just now",
+  "ratingSummary": "{ratingsCount} ratings, {reviewsCount} reviews",
+  "@ratingSummary": {
+    "placeholders": {
+      "ratingsCount": {
+        "type": "int"
+      },
+      "reviewsCount": {
+        "type": "int"
+      }
+    }
+  },
+  "home": "Home",
+  "favorites": "Favorite",
+  "saved": "Saved",
+  "myAds": "My ads",
+  "profile": "Profile",
+  "location": "Location",
+  "priceRange": "Price Range",
+  "propertyType": "Property Type",
+  "bedrooms": "Bedrooms",
+  "bathrooms": "Bathrooms",
+  "amenities": "Amenities",
+  "search": "Search",
+  "description": "Description",
+  "viewOnMap": "View on Map",
+  "bookNow": "Book Now",
+  "booking": "Booking",
+  "checkIn": "Check-in",
+  "checkOut": "Check-out",
+  "guests": "Guests",
+  "total": "Total",
+  "confirmBooking": "Confirm Booking",
+  "addNewAd": "Add New Ad",
+  "title": "Title",
+  "rentalType": "Rental Type",
+  "furnished": "Furnished",
+  "unfurnished": "Unfurnished",
+  "next": "Next",
+  "continueLabel": "Continue",
+  "propertyPhotos": "Property photos",
+  "addVideo": "Add Video",
+  "pricePerMonth": "Price per month",
+  "utilitiesIncluded": "Utilities included",
+  "publish": "Publish",
+  "publishAd": "Publish Ad",
+  "recentChats": "Recent Chats",
+  "myFavorites": "My Favorites",
+  "myBookings": "My Bookings",
+  "wallet": "Wallet",
+  "inviteFriends": "Invite Friends",
+  "language": "Language",
+  "help": "Help",
+  "logout": "Logout",
+  "personalInformation": "Personal Information",
+  "phoneNumber": "Phone Number",
+  "address": "Address",
+  "saveChanges": "Save Changes",
+  "wifi": "Wifi",
+  "ac": "AC",
+  "balcony": "Balcony",
+  "parking": "Parking",
+  "garden": "Garden",
+  "pool": "Pool",
+  "gym": "Gym",
+  "laundry": "Laundry",
+  "flat": "Flat",
+  "villa": "Villa",
+  "room": "Room",
+  "perMonth": "{price} EGP / month",
+  "sell": "Sell",
+  "skipForNow": "Skip now -->",
+  "findYourPerfectHome": "Find Your Perfect Home",
+  "@perMonth": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "edit": "Edit",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "accountInformation": "Account Information",
+  "security": "Security",
+  "accountSettings": "Account Settings",
+  "languageSettings": "Language Settings",
+  "propertyManagement": "Property Management",
+  "myActiveAds": "My Active Ads",
+  "propertiesCurrentlyLive": "{count} properties currently live",
+  "@propertiesCurrentlyLive": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "savedProperties": "Saved Properties",
+  "helpSupport": "Help & Support",
+  "available": "Available",
+  "unavailable": "Unavailable",
+  "shared": "SHARED",
+  "private": "PRIVATE",
+  "camera": "Camera",
+  "gallery": "Gallery",
+  "addAdMediaSourceTitle": "Choose source",
+  "back": "Back",
+  "addAdStepPropertyType": "Property Type",
+  "addAdStepLocation": "Location",
+  "addAdStepDetails": "Details & Amenities",
+  "addAdStepMedia": "Media Upload",
+  "addAdStepReview": "Review & Publish",
+  "addAdWhatRenting": "What are you renting?",
+  "addAdWhoCanRent": "Who can rent this place?",
+  "addAdPreferredFieldOfStudy": "Preferred field of study",
+  "addAdRentingSingleBed": "Single Bed",
+  "addAdRentingPrivateRoom": "Private room",
+  "addAdRentingEntireApartment": "Entire apartment",
+  "addAdRentingStudio": "Studio",
+  "addAdMale": "Male",
+  "addAdFemale": "Female",
+  "addAdLocationDetails": "Location Details",
+  "addAdLocationDetailsSubtitle": "Help students find your place. Pick governorate, district, and pin the exact spot.",
+  "addAdGovernorate": "Governorate",
+  "addAdSelectGovernorate": "Select governorate",
+  "addAdDistrict": "Area / District",
+  "addAdSelectDistrict": "Select district",
+  "addAdExtractLocation": "Extract Location",
+  "addAdUseCurrentLocation": "Use current location",
+  "addAdTapMapToAdjustPin": "Tap map to adjust pin location",
+  "addAdDetailsAndAmenities": "Details & Amenities",
+  "addAdDetailsSubtitle": "Set rent, capacity, size, and what you offer.",
+  "addAdMonthlyRent": "Monthly rent",
+  "addAdRentHint": "0.00",
+  "addAdMonthlySuffix": "Monthly",
+  "addAdTotalBeds": "TOTAL BEDS",
+  "addAdBedsAvailable": "BEDS AVAILABLE",
+  "addAdContractTitle": "Apartment contract",
+  "addAdContractHint": "Upload a photo of the rental contract for verification. This will not be shown to users.",
+  "addAdContractTapToUpload": "Tap to upload contract image",
+  "addAdContractRequiredWarning": "A contract image is required before you can continue.",
+  "addAdContractUploaded": "Contract uploaded for verification",
+  "addAdTestPayment": "Test payment (MyFatoorah)",
+  "addAdTestPaymentTitle": "Payment",
+  "addAdTestPaymentLoading": "Creating test invoice…",
+  "addAdTestPaymentSandboxHint": "Sandbox mode — use MyFatoorah test cards. No real charge.",
+  "addAdTestPaymentSuccess": "Test payment completed.",
+  "addAdTestPaymentCancelled": "Test payment was not completed.",
+  "addAdTestPaymentError": "Could not start test payment. Check your connection and try again.",
+  "addAdTestPaymentRetry": "Try again",
+  "addAdNationalIdTitle": "National ID",
+  "addAdNationalIdHint": "Upload front and back photos of your national ID for verification. These will not be shown to users.",
+  "addAdNationalIdFrontLabel": "Front",
+  "addAdNationalIdBackLabel": "Back",
+  "addAdNationalIdFrontTapToUpload": "Tap to upload front",
+  "addAdNationalIdBackTapToUpload": "Tap to upload back",
+  "addAdNationalIdRequiredWarning": "Front and back national ID images are required before you can continue.",
+  "addAdNationalIdUploaded": "National ID uploaded for verification",
+  "addAdRoomSize": "ROOM SIZE",
+  "addAdSqmSuffix": "sqm (m²)",
+  "addAdMediaUpload": "Media Upload",
+  "addAdMediaSubtitle": "Almost done! Add some visuals",
+  "addAdPhotosUploaded": "{count}/{max} Uploaded",
+  "@addAdPhotosUploaded": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdAddPhoto": "Add Photo",
+  "addAdMinTwoPhotosWarning": "Minimum 2 photos required. Higher quality attracts more students.",
+  "addAdUploadPropertyVideo": "Upload a property video",
+  "addAdVideoFormats": "MP4, MOV up to 50MB",
+  "addAdReviewPublish": "Review & Publish",
+  "addAdListingSummary": "Listing Summary",
+  "addAdDetailsAmenitiesSection": "Details & Amenities",
+  "addAdLocationSection": "Location Details",
+  "addAdMediaOverview": "Media Overview",
+  "addAdOpenTo": "Open to: {gender}",
+  "@addAdOpenTo": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPreferredField": "Preferred Field: {fields}",
+  "@addAdPreferredField": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPerBed": "EGP {price} / Per Bed",
+  "@addAdPerBed": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdPriceMonthlyShort": "EGP {price} / mo",
+  "@addAdPriceMonthlyShort": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "addAdStudyEngineering": "Engineering",
+  "addAdStudyEducation": "Education",
+  "addAdStudySales": "Sales",
+  "addAdStudyLaw": "Law",
+  "addAdStudyFinance": "Finance",
+  "addAdStudyMedicine": "Medicine",
+  "addAdStudyMarketing": "Marketing",
+  "addAdStudyPsychology": "Psychology",
+  "addAdStudyArchitecture": "Architecture",
+  "addAdStudyNursing": "Nursing",
+  "addAdStudyBusiness": "Business",
+  "addAdStudyIt": "IT",
+  "addAdStudyOpenToAll": "Open to all",
+  "addAmenityKitchen": "Kitchen",
+  "addAmenityStudyDesk": "Study desk",
+  "addAdContinue": "Continue",
+  "addAdPublishListing": "Publish",
+  "addAdVideoTooLarge": "Video must be 50MB or smaller",
+  "addAdLocationPermissionDenied": "Location permission denied",
+  "addAdLocationServicesOff": "Location services are disabled"
+,
+  "addAdPublishingTitle": "Publishing your listing…",
+  "addAdUploadProgressPercent": "{percent}%",
+  "@addAdUploadProgressPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "addAdListingPublishedTitle": "Listing published!",
+  "addAdListingPublishedSubtitle": "Your property is live for users to discover.",
+  "addAdPublishSuccessDone": "Back to home",
+  "addAdPublishErrorGeneric": "Something went wrong while publishing. Please try again.",
+  "addAdPublishErrorUnauthorized": "Upload was rejected. Check your Cloudinary settings.",
+  "addAdPublishErrorNetwork": "Could not reach the server. Check your connection.",
+  "addAdPublishErrorNotSignedIn": "You must be signed in to publish.",
+  "addAdPublishErrorNotConfigured": "Upload is not configured. Add Cloudinary keys to your build."
+}

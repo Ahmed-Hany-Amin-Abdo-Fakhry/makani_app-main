@@ -1,0 +1,73 @@
+name: makani_app
+description: Makani - Property rental app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  go_router: ^14.6.2
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
+  flutter_screenutil: ^5.9.3
+  equatable: ^2.0.5
+  dio: ^5.7.0
+  shared_preferences: ^2.3.3
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+  pinput: ^3.0.1
+  flutter_svg: ^2.2.3
+  google_fonts: ^8.0.2
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  google_sign_in: ^6.2.2
+  image_picker: ^1.2.1
+  path_provider: ^2.1.5
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+  webview_flutter: ^4.13.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+  uuid: ^4.5.1
+  video_compress: ^3.1.4
+  flutter_image_compress: ^2.4.0
+  path: ^1.9.1
+  geocoding: ^4.0.0
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  video_player: ^2.9.5
+  pretty_dio_logger: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.14.4"
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/navBar_icons/
+    - assets/icons/auth_icons/
+    - assets/icons/home_icons/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/auth_icons/logo.png
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  background_color_ios: "#ffffff"
