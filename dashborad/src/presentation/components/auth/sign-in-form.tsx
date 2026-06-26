@@ -26,7 +26,7 @@ export function SignInForm({ onEmailSignIn, onGoogleSignIn, isLoading, error }: 
     !errorDismissed && error
       ? error === 'access_denied'
         ? t('accessDenied')
-        : tCommon('error')
+        : error
       : null;
 
   async function handleSubmit(e: React.FormEvent) {

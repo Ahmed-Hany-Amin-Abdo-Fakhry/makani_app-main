@@ -1,6 +1,6 @@
 import {
   signInWithEmailAndPassword,
-  signInWithPopup,
+  signInWithRedirect,
   GoogleAuthProvider,
   signOut as firebaseSignOut,
   onAuthStateChanged as firebaseOnAuthStateChanged,
@@ -38,10 +38,9 @@ export class FirebaseAuthRepository implements AuthRepository {
     return toAdminUser(user);
   }
 
-  async signInWithGoogle(): Promise<AdminUser> {
+  async signInWithGoogle(): Promise<void> {
     const provider = new GoogleAuthProvider();
-    const { user } = await signInWithPopup(auth, provider);
-    return toAdminUser(user);
+    await signInWithRedirect(auth, provider);
   }
 
   async signOut(): Promise<void> {
