@@ -88,9 +88,32 @@ class _PropertyDetailVideoTabState extends State<PropertyDetailVideoTab> {
           if (mounted) setState(() {});
         }).catchError((_) {
           if (mounted) {
+            _disposeVideo();
+            WebViewController? fallbackWeb;
+            if (Uri.tryParse(url)?.hasScheme == true) {
+              final escapedUrl = url.replaceAll('"', '&quot;');
+              final html = '''<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;display:flex;align-items:center;justify-content:center;height:100vh;overflow:hidden}
+video{width:100%;height:100%;object-fit:contain;outline:none}
+</style>
+</head>
+<body>
+<video controls autoplay playsinline src="$escapedUrl"></video>
+</body>
+</html>''';
+              fallbackWeb = WebViewController()
+                ..setJavaScriptMode(JavaScriptMode.unrestricted)
+                ..setBackgroundColor(Colors.black)
+                ..loadHtmlString(html);
+            }
             setState(() {
               _videoFailed = true;
-              _disposeVideo();
+              _web = fallbackWeb;
             });
           }
         });
@@ -163,7 +186,18 @@ class _PropertyDetailVideoTabState extends State<PropertyDetailVideoTab> {
                 ),
               ),
             ),
-            SizedBox(height: 12.h),
+            SizedBox(height: 8.h),
+            VideoProgressIndicator(
+              _video!,
+              allowScrubbing: true,
+              colors: VideoProgressColors(
+                playedColor: AppColors.primary700,
+                bufferedColor: AppColors.primary700.withValues(alpha: 0.35),
+                backgroundColor: AppColors.divider,
+              ),
+              padding: EdgeInsets.symmetric(horizontal: 4.w, vertical: 4.h),
+            ),
+            SizedBox(height: 8.h),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -186,7 +220,21 @@ class _PropertyDetailVideoTabState extends State<PropertyDetailVideoTab> {
                     );
                   },
                 ),
-                SizedBox(width: 16.w),
+                SizedBox(width: 12.w),
+                ValueListenableBuilder<VideoPlayerValue>(
+                  valueListenable: _video!,
+                  builder: (context, value, _) {
+                    return OutlinedButton(
+                      onPressed: () =>
+                          _video!.setVolume(value.volume > 0 ? 0 : 1),
+                      child: Icon(
+                        value.volume > 0 ? Icons.volume_up : Icons.volume_off,
+                        size: 22.r,
+                      ),
+                    );
+                  },
+                ),
+                SizedBox(width: 12.w),
                 OutlinedButton(
                   onPressed: () => _openInBrowser(url),
                   child: Icon(Icons.open_in_new, size: 22.r),
@@ -229,13 +277,19 @@ class _PropertyDetailVideoTabState extends State<PropertyDetailVideoTab> {
               ),
             ),
             SizedBox(height: 8.h),
-            TextButton.icon(
-              onPressed: () => _openInBrowser(url),
-              icon: Icon(Icons.open_in_browser, size: 20.r),
-              label: Text(
-                'Open in browser',
-                style: TextStyle(fontSize: 13.sp),
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                FilledButton(
+                  onPressed: () => _web!.reload(),
+                  child: Icon(Icons.refresh, size: 22.r, color: Colors.white),
+                ),
+                SizedBox(width: 12.w),
+                OutlinedButton(
+                  onPressed: () => _openInBrowser(url),
+                  child: Icon(Icons.open_in_new, size: 22.r),
+                ),
+              ],
             ),
           ],
         ),
