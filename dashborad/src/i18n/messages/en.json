@@ -1,0 +1,57 @@
+{
+  "auth": {
+    "signIn": "Sign In",
+    "signInWithGoogle": "Continue with Google",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "signingIn": "Signing in...",
+    "accessDenied": "Access denied — not an admin account"
+  },
+  "nav": {
+    "overview": "Overview",
+    "listings": "Listings",
+    "reports": "Reports",
+    "signOut": "Sign Out"
+  },
+  "overview": {
+    "title": "Overview",
+    "totalUsers": "Total Users",
+    "activeListings": "Active Listings",
+    "pendingReports": "Pending Reports",
+    "totalBookings": "Total Bookings"
+  },
+  "listings": {
+    "title": "Listings",
+    "idColumn": "ID",
+    "ownerColumn": "Owner",
+    "typeColumn": "Type",
+    "rentColumn": "Rent",
+    "statusColumn": "Status",
+    "toggleColumn": "Toggle",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activate": "Activate listing",
+    "deactivate": "Deactivate listing",
+    "statusChanged": "Listing status changed",
+    "nowActive": "Listing is now active",
+    "nowInactive": "Listing is now inactive"
+  },
+  "reports": {
+    "title": "Reports",
+    "idColumn": "ID",
+    "listingColumn": "Listing",
+    "reasonColumn": "Reason",
+    "statusColumn": "Status",
+    "actionsColumn": "Actions",
+    "pending": "Pending",
+    "reviewed": "Reviewed",
+    "markReviewed": "Mark Reviewed"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "undo": "Undo",
+    "noData": "No data found",
+    "loadMore": "Load more"
+  }
+}

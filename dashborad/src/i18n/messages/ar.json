@@ -1,0 +1,57 @@
+{
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signInWithGoogle": "المتابعة بحساب جوجل",
+    "emailLabel": "البريد الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "signingIn": "جارٍ تسجيل الدخول...",
+    "accessDenied": "تم رفض الوصول — هذا الحساب ليس مدير نظام"
+  },
+  "nav": {
+    "overview": "نظرة عامة",
+    "listings": "القوائم",
+    "reports": "التقارير",
+    "signOut": "تسجيل الخروج"
+  },
+  "overview": {
+    "title": "نظرة عامة",
+    "totalUsers": "إجمالي المستخدمين",
+    "activeListings": "القوائم النشطة",
+    "pendingReports": "التقارير المعلقة",
+    "totalBookings": "إجمالي الحجوزات"
+  },
+  "listings": {
+    "title": "القوائم",
+    "idColumn": "المعرّف",
+    "ownerColumn": "المالك",
+    "typeColumn": "النوع",
+    "rentColumn": "الإيجار",
+    "statusColumn": "الحالة",
+    "toggleColumn": "التبديل",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "activate": "تفعيل القائمة",
+    "deactivate": "تعطيل القائمة",
+    "statusChanged": "تم تغيير حالة القائمة",
+    "nowActive": "القائمة نشطة الآن",
+    "nowInactive": "القائمة غير نشطة الآن"
+  },
+  "reports": {
+    "title": "التقارير",
+    "idColumn": "المعرّف",
+    "listingColumn": "القائمة",
+    "reasonColumn": "السبب",
+    "statusColumn": "الحالة",
+    "actionsColumn": "الإجراءات",
+    "pending": "معلق",
+    "reviewed": "تمت المراجعة",
+    "markReviewed": "تحديد كمراجَع"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "undo": "تراجع",
+    "noData": "لا توجد بيانات",
+    "loadMore": "تحميل المزيد"
+  }
+}
