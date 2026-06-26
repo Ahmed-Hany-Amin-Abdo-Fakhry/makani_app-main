@@ -35,9 +35,14 @@ export function useAuth() {
     setIsSigningIn(true);
     try {
       await authRepo.signInWithGoogle();
+      router.push('./overview');
     } catch (err) {
-      console.error('[Google Sign-In Error]', err);
-      setError(err instanceof Error ? err.message : 'google_error');
+      if (err instanceof AccessDeniedError) {
+        setError('access_denied');
+      } else {
+        setError('google_error');
+      }
+    } finally {
       setIsSigningIn(false);
     }
   }

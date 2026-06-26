@@ -1,8 +1,6 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { getRedirectResult } from 'firebase/auth';
-import { auth } from '@/infrastructure/firebase/app';
 import type { AdminUser } from '@/domain/entities/admin-user';
 import { useDI } from './di-provider';
 
@@ -19,9 +17,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // consume redirect result first so onAuthStateChanged sees the signed-in user
-    getRedirectResult(auth).catch(() => {});
-
     const unsubscribe = authRepo.onAuthStateChanged((adminUser) => {
       setUser(adminUser);
       setLoading(false);
