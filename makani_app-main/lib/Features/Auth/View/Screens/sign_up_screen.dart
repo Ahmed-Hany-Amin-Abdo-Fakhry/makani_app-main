@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:makani_app/Core/Const/localization_extension.dart';
 import 'package:makani_app/Core/Widgets/app_text_field.dart';
 import 'package:makani_app/Core/Widgets/primary_button.dart';
@@ -11,7 +10,6 @@ import 'package:go_router/go_router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../Core/Const/app_colors.dart';
-import '../../../../Core/Const/assets.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -150,28 +148,36 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           color: AppColors.textSecondary,
                         ),
                       ),
-                      SizedBox(width: 2.w,),
+                      SizedBox(
+                        width: 2.w,
+                      ),
                       InkWell(
-                          onTap: (){
+                          onTap: () {
                             context.pop();
                           },
-                          child: Text(context.tr.signIn,style: TextStyle(
-                            fontSize: 16.sp,
-                            color: AppColors.primary700,
-                          ),)),
+                          child: Text(
+                            context.tr.signIn,
+                            style: TextStyle(
+                              fontSize: 16.sp,
+                              color: AppColors.primary700,
+                            ),
+                          )),
                     ],
                   ),
                   SizedBox(
                     height: 70.h,
                   ),
                   InkWell(
-                    onTap: (){
+                    onTap: () {
                       context.pushNamed(Routes.home.name);
                     },
-                    child: Text(context.tr.skipForNow,style: TextStyle(
-                      color: AppColors.gray500,
-                      fontSize: 16.sp,
-                    ),),
+                    child: Text(
+                      context.tr.skipForNow,
+                      style: TextStyle(
+                        color: AppColors.gray500,
+                        fontSize: 16.sp,
+                      ),
+                    ),
                   )
                 ],
               ),
